@@ -4,45 +4,38 @@ $color3:#D65167;
 $color4:#FFCE00;
 $font-color: #F1F1F1;
 $font-weight: Regular;
-$font-family:IBM Plex Sans;
-
-
-
-.background{
-    background-image: linear-gradient( 
-        to left,
-    $color1,$color2,$color3,$color4) ;
+.background {
+    background-image: linear-gradient( to left, $color1, $color2, $color3, $color4);
     background-size: cover;
+}
 
-}
-.about-us{
+.about-us {
     font-weight: $font-weight;
-    font-family: $font-family;
-    color:$font-color;
-    font-size :24px;
+    color: $font-color;
+    font-size: 24px;
 }
-.text{
+
+.text {
     font-weight: $font-weight;
-    color:$font-color;
-    font-family: $font-family;
+    color: $font-color;
     font-size: 20px;
 }
-.title{
-    font-family: $font-family;
+
+.title {
     font-size: 24px;
     font-weight: bold;
-    color:$font-color ;
-}
-.img{
-    max-width: 100%;
-}
-.content{
-    margin-left:20px;
+    color: $font-color;
 }
 
-.logo{
-    background-image: url('../../../assets/img/Mask Group 16.svg');
-    background-repeat: no-repeat;
-   background-position: bottom right;
-    height: 550px;
+.img {
+    max-width: 100%;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
 }

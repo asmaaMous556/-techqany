@@ -1,26 +1,20 @@
-$font-family :IBM Plex Sans;
-
-
-.header{
-    font-family: $font-family;
+.header {
     font-size: 32px;
     font-weight: bold;
-
 }
-.card-img{
+
+.card-img {
     max-width: 100%;
-    width:177px;
+    width: 177px;
     height: 134px;
 }
 
-.card-text{
+.card-text {
     font-size: 20px;
-    font-family: $font-family;
-   
 }
-.card{
+
+.card {
     max-width: 100%;
     width: 312px;
     height: 434px;
-  
 }
