@@ -85,3 +85,9 @@ nav {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
+
+@media (min-width: 992px) {
+    .list-group-horizontal-lg>.list-group-item {
+        border-bottom: none;
+    }
+}
